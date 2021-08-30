@@ -15,7 +15,7 @@ export const globals = css.global`
 * Globals
 */
 body {
-  padding: 20px;
+  // padding: 20px;
   color: #72767b;
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -89,6 +89,9 @@ img {
 }
 
 @media (max-width: 767px) {
+  body {
+    text-align: center;
+  }
   h1 {
     font-size: 32px;
     line-height: 40px;

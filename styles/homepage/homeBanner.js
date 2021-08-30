@@ -2,6 +2,8 @@ import css from 'styled-jsx/css'
 
 export const homeBannerStyles = css.global`
 .homepage-banner {
+  height: 100vh;
+  width: 100vw;
   margin: -70px 0 80px;
   padding: 10em 0 8em;
   background-position: center center;
@@ -21,6 +23,7 @@ export const homeBannerStyles = css.global`
   margin-right: auto;
 }
 .banner-title {
+  padding-top: 15vh;
   color: #ffffff;
   font-size: 70px;
   font-weight: 900;
