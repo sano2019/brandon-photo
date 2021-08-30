@@ -8,7 +8,7 @@ import { headerStyles } from 'styles'
 const Header = ({ menu }) => (
   <header className="site-header">
     <NextLink href="/">
-      <a><div className="logo">Example Site</div></a>
+      <a><div className="logo">Brandon's Photobooth</div></a>
     </NextLink>
     <MenuLinks menu={menu} />
     <style jsx global>{ headerStyles }</style>
